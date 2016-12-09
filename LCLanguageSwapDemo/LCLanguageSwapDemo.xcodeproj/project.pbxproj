@@ -13,13 +13,13 @@
 		79F8CF361DFA5FB200081160 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F8CF341DFA5FB200081160 /* Main.storyboard */; };
 		79F8CF381DFA5FB200081160 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79F8CF371DFA5FB200081160 /* Assets.xcassets */; };
 		79F8CF3B1DFA5FB200081160 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F8CF391DFA5FB200081160 /* LaunchScreen.storyboard */; };
-		79F8CF451DFA625300081160 /* LCLanguageSwap.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F8CF441DFA625300081160 /* LCLanguageSwap.m */; };
-		79F8CF471DFA644900081160 /* UserLanguageInfomation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79F8CF461DFA644900081160 /* UserLanguageInfomation.plist */; };
 		79F8CF4E1DFA64C300081160 /* CustomStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79F8CF501DFA64C300081160 /* CustomStrings.strings */; };
 		79F8CF5B1DFA6C0B00081160 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F8CF5A1DFA6C0B00081160 /* BViewController.m */; };
 		79F8CF791DFA6EDB00081160 /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F8CF771DFA6EDB00081160 /* CViewController.m */; };
 		79F8CF7B1DFA6F3A00081160 /* CViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79F8CF7D1DFA6F3A00081160 /* CViewController.xib */; };
 		79F8CF841DFA86D100081160 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F8CF831DFA86D100081160 /* BaseViewController.m */; };
+		79F8CF881DFA8CF600081160 /* LCLanguageSwap.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F8CF861DFA8CF600081160 /* LCLanguageSwap.m */; };
+		79F8CF891DFA8CF600081160 /* UserLanguageInfomation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79F8CF871DFA8CF600081160 /* UserLanguageInfomation.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,9 +33,6 @@
 		79F8CF371DFA5FB200081160 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79F8CF3A1DFA5FB200081160 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79F8CF3C1DFA5FB200081160 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79F8CF431DFA625300081160 /* LCLanguageSwap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLanguageSwap.h; sourceTree = "<group>"; };
-		79F8CF441DFA625300081160 /* LCLanguageSwap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLanguageSwap.m; sourceTree = "<group>"; };
-		79F8CF461DFA644900081160 /* UserLanguageInfomation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UserLanguageInfomation.plist; sourceTree = "<group>"; };
 		79F8CF4A1DFA64A700081160 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		79F8CF4B1DFA64A700081160 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		79F8CF4C1DFA64B300081160 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
@@ -53,6 +50,9 @@
 		79F8CF811DFA6F3F00081160 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/CViewController.strings"; sourceTree = "<group>"; };
 		79F8CF821DFA86D100081160 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		79F8CF831DFA86D100081160 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		79F8CF851DFA8CF600081160 /* LCLanguageSwap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LCLanguageSwap.h; path = LanguageSupportFiles/LCLanguageSwap.h; sourceTree = "<group>"; };
+		79F8CF861DFA8CF600081160 /* LCLanguageSwap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LCLanguageSwap.m; path = LanguageSupportFiles/LCLanguageSwap.m; sourceTree = "<group>"; };
+		79F8CF871DFA8CF600081160 /* UserLanguageInfomation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = UserLanguageInfomation.plist; path = LanguageSupportFiles/UserLanguageInfomation.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +117,9 @@
 		79F8CF421DFA623600081160 /* LCLanguageSwap */ = {
 			isa = PBXGroup;
 			children = (
-				79F8CF461DFA644900081160 /* UserLanguageInfomation.plist */,
-				79F8CF431DFA625300081160 /* LCLanguageSwap.h */,
-				79F8CF441DFA625300081160 /* LCLanguageSwap.m */,
+				79F8CF851DFA8CF600081160 /* LCLanguageSwap.h */,
+				79F8CF861DFA8CF600081160 /* LCLanguageSwap.m */,
+				79F8CF871DFA8CF600081160 /* UserLanguageInfomation.plist */,
 				79F8CF501DFA64C300081160 /* CustomStrings.strings */,
 			);
 			name = LCLanguageSwap;
@@ -188,10 +188,10 @@
 			files = (
 				79F8CF7B1DFA6F3A00081160 /* CViewController.xib in Resources */,
 				79F8CF3B1DFA5FB200081160 /* LaunchScreen.storyboard in Resources */,
-				79F8CF471DFA644900081160 /* UserLanguageInfomation.plist in Resources */,
 				79F8CF4E1DFA64C300081160 /* CustomStrings.strings in Resources */,
 				79F8CF381DFA5FB200081160 /* Assets.xcassets in Resources */,
 				79F8CF361DFA5FB200081160 /* Main.storyboard in Resources */,
+				79F8CF891DFA8CF600081160 /* UserLanguageInfomation.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,10 +203,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				79F8CF331DFA5FB200081160 /* ViewController.m in Sources */,
-				79F8CF451DFA625300081160 /* LCLanguageSwap.m in Sources */,
 				79F8CF791DFA6EDB00081160 /* CViewController.m in Sources */,
 				79F8CF301DFA5FB200081160 /* AppDelegate.m in Sources */,
 				79F8CF5B1DFA6C0B00081160 /* BViewController.m in Sources */,
+				79F8CF881DFA8CF600081160 /* LCLanguageSwap.m in Sources */,
 				79F8CF841DFA86D100081160 /* BaseViewController.m in Sources */,
 				79F8CF2D1DFA5FB200081160 /* main.m in Sources */,
 			);

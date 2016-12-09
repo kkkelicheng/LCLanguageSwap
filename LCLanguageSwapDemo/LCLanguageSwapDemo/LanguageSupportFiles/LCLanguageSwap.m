@@ -68,7 +68,7 @@ NSString * const kNotificationLanguageChanged = @"notification_language_changed"
 +(NSString *)currentUseLanguage
 {
     NSString * languageString = [[NSUserDefaults standardUserDefaults]objectForKey:userLanguage];
-    if (!languageString) {  //当前系统没有设置
+    if (!languageString) {  //如果当前系统没有设置用户的语言，那么设置一个默认的
         LanguageType type = [self setDefaultLanguage];
         languageString = self.languages[type];
     }
