@@ -1,6 +1,6 @@
 #LCLanguageSwap
 应用内语言热切换
-![效果图](https://github.com/kkkelicheng/LCLanguageSwap/LCLanguageSwapDemo/Language_gif.gif)
+![效果图](https://raw.githubusercontent.com/kkkelicheng/LCLanguageSwap/master/LCLanguageSwapDemo/Language_gif.gif)
 
 ##简介
 `LCLanguageSwap`文件夹里面有2个东西
