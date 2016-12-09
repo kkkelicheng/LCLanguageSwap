@@ -1,0 +1,33 @@
+
+/* Class = "UINavigationItem"; title = "AViewController"; ObjectID = "99W-Gl-sBR"; */
+"99W-Gl-sBR.title" = "AViewController";
+
+/* Class = "UINavigationItem"; title = "BViewController"; ObjectID = "9rF-pX-l3e"; */
+"9rF-pX-l3e.title" = "BViewController";
+
+/* Class = "UIButton"; normalTitle = "zh-Hant"; ObjectID = "Edn-OC-fE4"; */
+"Edn-OC-fE4.normalTitle" = "zh-Hant";
+
+/* Class = "UILabel"; text = "页面A"; ObjectID = "EnM-h6-mJI"; */
+"EnM-h6-mJI.text" = "页面A";
+
+/* Class = "UILabel"; text = "厉害"; ObjectID = "Es0-1G-AbG"; */
+"Es0-1G-AbG.text" = "厉害";
+
+/* Class = "UIButton"; normalTitle = "zh-Hant"; ObjectID = "JlS-rM-q3E"; */
+"JlS-rM-q3E.normalTitle" = "zh-Hant";
+
+/* Class = "UIButton"; normalTitle = "zh-Hanz"; ObjectID = "Kjq-wX-cgC"; */
+"Kjq-wX-cgC.normalTitle" = "zh-Hanz";
+
+/* Class = "UIButton"; normalTitle = "zh-Hanz"; ObjectID = "aUO-59-BUz"; */
+"aUO-59-BUz.normalTitle" = "zh-Hanz";
+
+/* Class = "UIButton"; normalTitle = "push"; ObjectID = "hjH-Lv-a36"; */
+"hjH-Lv-a36.normalTitle" = "push";
+
+/* Class = "UIButton"; normalTitle = "en"; ObjectID = "n5h-zc-feq"; */
+"n5h-zc-feq.normalTitle" = "en";
+
+/* Class = "UIButton"; normalTitle = "en"; ObjectID = "rlg-nl-e8r"; */
+"rlg-nl-e8r.normalTitle" = "en";

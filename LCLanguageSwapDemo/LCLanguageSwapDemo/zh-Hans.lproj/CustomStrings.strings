@@ -1,0 +1,10 @@
+/* 
+  CustomStrings.strings
+  LCLanguageSwapDemo
+
+  Created by MAC-DDT on 16/12/9.
+  Copyright © 2016年 YCL. All rights reserved.
+*/
+"hello" = "你好！！！！";
+"pageB" = "页面B";
+"good" = "厉害";
