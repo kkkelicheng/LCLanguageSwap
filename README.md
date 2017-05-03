@@ -1,8 +1,8 @@
-#LCLanguageSwap
+# LCLanguageSwap
 应用内语言热切换
 ![效果图](https://raw.githubusercontent.com/kkkelicheng/LCLanguageSwap/master/LCLanguageSwapDemo/Language_gif.gif)
 
-##简介
+## 简介
 `LCLanguageSwap`文件夹里面有2个东西
 * `LCLanguageSwap`
 这里`LCLanguageSwap`类里面主要有三个类
@@ -13,7 +13,7 @@
 * `UserLanguageInfomation`
  设置语言类型列表（其中**对应语言的值**设置正确，例如：简体中文是zh-Hans,英文是en），设置国际化文件列表
 
-##用法
+## 用法
 * 在代码中直接用`LC_LOCAL_STRING`这个宏去替换文字。
  会自动根据当前用户的语言，从默认的`table`（就是那个`Strings`文件了）中去找对应的值。
 
@@ -24,7 +24,7 @@
 监听`kNotificationLanguageChanged`触发。
 
 
-##其他的一些说明
+## 其他的一些说明
 * `LCLanguageSwap`类中枚举类型说明
 `LanguageType`要跟`UserLanguageInfomation`中语言列表的语言信息对应.
  枚举的名字可以自己写，位置要一对一。应为代码中的语言代码根据枚举的值去plist文件中的位置去获得**对应的语言的值**
