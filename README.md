@@ -36,3 +36,5 @@
 `kNotificationLanguageWillChange` & `kNotificationLanguageChanged`
 `kNotificationLanguageWillChange`这个过程是将要去做更新所有的国际化的控件
 `kNotificationLanguageChanged` 发生这个通知的时候，是控件内容已经更新，可以做一些其他的操作，例如布局。
+
+123
