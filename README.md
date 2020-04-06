@@ -38,3 +38,4 @@
 `kNotificationLanguageChanged` 发生这个通知的时候，是控件内容已经更新，可以做一些其他的操作，例如布局。
 
 123
+321
